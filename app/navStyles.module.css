@@ -2,15 +2,27 @@
   display: flex;
   flex-direction: row;
   position: fixed;
+  justify-content: space-between;
+  align-items: center;
   top: 0;
   background-color: white;
-  width: 100%;
-  height: 75px;
+  padding: 1rem;
+  width: 100vw;
+  height: 100px;
+}
+
+.navImg {
+  display: flex;
+  height: 100%;
+  margin: 0.5rem;
+  max-width: 40%;
+  object-fit: contain;
 }
 
 .linkList {
   display: flex;
-  width: 100%;
+  width: fit-content;
+  justify-self: end;
 }
 
 .navLink {
