@@ -43,6 +43,9 @@ export default function RootLayout({
         </nav>
       </header>
       <body className={inter.className}>{children}</body>
+      <footer>
+        35 Stirling Hwy, Crawley WA 6009 | Phone: (08) 6488 3096 | Email: wellbeinglabUWA@gmail.com
+      </footer>
     </html>
   )
 }
