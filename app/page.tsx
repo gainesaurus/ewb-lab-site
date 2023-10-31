@@ -13,7 +13,7 @@ const links = [
 export default function Home() {
   return (
     <main className={styles.main}>
-           <header>
+      <header>
         <nav className={styles.navbar}>
           <img
             src='http://emotionalwellbeinglab.com.au/wp-content/uploads/2020/09/cropped-Two-logos-1024x152.png' 
@@ -29,8 +29,18 @@ export default function Home() {
           </ul>
         </nav>
       </header>
-     <p>hello</p>
-     <footer>
+      <div className={styles.homeImgContainer}>
+        <img
+          src='https://images.unsplash.com/photo-1538385838701-51d6b218a676?auto=format&fit=crop&q=80&w=2610&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+          alt='Quay Train Station aerial photo'
+          className={styles.homeImg}
+        />
+        <div className={styles.greetingBox}>
+          <h2>Emotional Wellbeing Lab</h2>
+          <button>GET TO KNOW US</button>
+        </div>
+      </div>
+      <footer className={styles.footer}>
         35 Stirling Hwy, Crawley WA 6009 | Phone: (08) 6488 3096 | Email: wellbeinglabUWA@gmail.com
       </footer>
     </main>
