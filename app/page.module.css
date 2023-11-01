@@ -35,6 +35,7 @@
 .navLink {
   display: flex;
   margin: 1rem;
+  list-style: none;
 }
 
 .homeImgContainer {
@@ -56,14 +57,35 @@
   flex-direction: column;
   position: absolute;
   backdrop-filter: brightness(90%);
-  height: 20vh;
-  top: 40%;
+  height: fit-content;
+  font-size: 2.5rem;
+  text-align: center;
+  top: 30%;
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  margin: 1rem;
+  border-radius: 6px;
+  color: white;
 }
 
-.footer {
+.button {
   display: flex;
-  text-align: center;
+  background-color: #d36795;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem;
+  color: white;
+  margin-top: 1rem;
+  box-shadow: 1px 1px 2px #757575;
+}
+
+.navLink:link {
+  color: #d36795;
+  text-decoration: none;
+}
+
+.navLink:visited {
+  color: #007BCC;
+  text-decoration: none;
 }

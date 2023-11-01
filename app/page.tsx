@@ -22,8 +22,11 @@ export default function Home() {
           />
           <ul className={styles.linkList}>
             {links.map(link => (
-              <li key={link.href} className={styles.navLink}>
-                <Link href={link.href}>{link.label}</Link>
+              <li key={link.href}>
+                <Link
+                  className={styles.navLink}
+                  href={link.href}>{link.label}
+                </Link>
               </li>
             ))}
           </ul>
@@ -37,10 +40,10 @@ export default function Home() {
         />
         <div className={styles.greetingBox}>
           <h2>Emotional Wellbeing Lab</h2>
-          <button>GET TO KNOW US</button>
+          <button className={styles.button}>GET TO KNOW US</button>
         </div>
       </div>
-      <footer className={styles.footer}>
+      <footer>
         35 Stirling Hwy, Crawley WA 6009 | Phone: (08) 6488 3096 | Email: wellbeinglabUWA@gmail.com
       </footer>
     </main>
