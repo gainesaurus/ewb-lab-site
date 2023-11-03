@@ -1,5 +1,7 @@
 .main {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   min-height: 100vh;
 }
 
@@ -71,9 +73,11 @@
 
 .button {
   display: flex;
+  justify-content: center;
   background-color: #d36795;
   border: none;
   border-radius: 30px;
+  width: fit-content;
   padding: 1rem;
   color: white;
   margin-top: 1rem;
@@ -88,4 +92,36 @@
 .navLink:visited {
   color: #007BCC;
   text-decoration: none;
+}
+
+.researchContainer {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 3rem;
+}
+
+.researchListTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.researchList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.researchListItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin: 1rem;
+  box-shadow: 1px 1px 2px #757575;
 }
