@@ -1,3 +1,11 @@
+:root {
+  --button: #D36796;
+  --ltBlue: #A0E6FF;
+  --blue: #61AFFF;
+  --drkBlue: #007BCC;
+}
+
+
 * {
   box-sizing: border-box;
   padding: 0;

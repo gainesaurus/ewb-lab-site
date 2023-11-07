@@ -74,7 +74,7 @@
 .button {
   display: flex;
   justify-content: center;
-  background-color: #d36795;
+  background-color: var(--button);
   border: none;
   border-radius: 30px;
   width: fit-content;
@@ -85,12 +85,12 @@
 }
 
 .navLink:link {
-  color: #d36795;
+  color: var(--button);
   text-decoration: none;
 }
 
 .navLink:visited {
-  color: #007BCC;
+  color: var(--drkBlue);
   text-decoration: none;
 }
 
